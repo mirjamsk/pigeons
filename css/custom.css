@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ShortLinesScriptBold';
+    src: url('../fonts/Shorelines Script Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* NAVBAR */
 
@@ -52,10 +59,10 @@
 /* Portrait tablets and small desktops */
 
 @media (max-width: 767px) {
-	#navbar > ul{
-		padding-top: 0;
-		margin-top: 0;
-	}
+    #navbar > ul {
+        padding-top: 0;
+        margin-top: 0;
+    }
     .navbar-collapse {
         position: fixed;
         width: 100%;
@@ -73,13 +80,14 @@
         border-color: transparent;
         box-shadow: none;
     }
-    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
-    	background-color: transparent;
+    .navbar-inverse .navbar-toggle:focus,
+    .navbar-inverse .navbar-toggle:hover {
+        background-color: transparent;
     }
 }
 
 
-/* CONTAINER */
+/* HEADER CONTAINER */
 
 .jumbotron {
     margin-top: -82px;
@@ -110,4 +118,105 @@ h1 {
 #header-container >div {
     display: table-cell;
     vertical-align: middle;
+}
+
+
+/* CONTAINER IN GENERAL */
+
+.container-title {
+    text-align: center;
+    color: #202020;
+    font-family: "ProximaNovaBold", sans-serif;
+}
+
+
+/* DOWNLOAD CONTAINER */
+
+#download-container >div {
+    text-align: center;
+    color: #727373;
+    font-family: "ProximaNovaSemiBold", sans-serif;
+}
+
+#phone-mockup {
+    background: url(../images/telefoni-mockup.png) no-repeat center center scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    min-height: 35em;
+}
+
+.download-btn {
+    font-family: "ProximaNovaSemiBold", sans-serif;
+    font-size: 1.5em;
+    background-color: #32a2db;
+    border-radius: 1px;
+}
+
+.app-available {
+    padding: 0.8em 0;
+    font-size: 1.15em;
+}
+
+
+/* COME FUNZIONA CONTAINER */
+
+#come-funziona-container {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+#come-funziona-container .container-title {
+    margin: 3em 0 2em 0;
+}
+
+#come-funziona-container .pigeons > div {
+    margin-bottom: 3em;
+}
+
+#come-funziona-container .pigeons > div {
+    min-height: 30em;
+    text-align: center;
+    position: relative;
+}
+
+#come-funziona-container div.pigeon {
+    min-height: 17em;
+}
+
+#come-funziona-container .pigeons > div:nth-child(1) > div.pigeon {
+    background: url(../images/piccione1.png) no-repeat center center scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#come-funziona-container .pigeons>div:nth-of-type(2) {
+        background: url(../images/piccione2.png) no-repeat center center scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#come-funziona-container .pigeons>div:nth-of-type(3) {
+        background: url(../images/piccione3.png) no-repeat center center scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.pigeon-title {
+    font-family: "ShortLinesScriptBold", serif;
+    margin: 2em 0;
+}
+
+.pigeon-description {
+    font-family: "ProximaNovaRegular", sans-serif;
+}
+
+
 }

@@ -279,9 +279,12 @@ h1 {
 }
 
 #footer ul {
-    text-align: left;
+    display: inline-block;
     list-style-type: none;
     font-family: "ProximaNovaRegular", sans-serif;
+}
+#footer li{
+    text-align: left;
 }
 #footer .footer-logo {
     padding-bottom: 5%;

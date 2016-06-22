@@ -44,9 +44,11 @@
             </div>
         </div>
         <div>
-            <a href="#"><img alt="scroll-down" src="./images/iconcina.png" height="50"></a>
+            <a href="#download"><img alt="scroll-down" src="./images/iconcina.png" height="50"></a>
         </div>
     </div>
+
+	<a name="download"></a>
     <div id="download-container" class="container-fluid">
         <div class="row">
             <h3 class="container-title">Esplora e vivi nuove esperienze indimenticabili!</h3>
@@ -55,6 +57,8 @@
             <div class="app-available">Available on the App Store</div>
         </div>
     </div>
+	
+	<a name="come-funziona"></a>	
     <div id="come-funziona-container" class="container-fluid">
         <h3 class="container-title">Come funziona</h3>
         <div class="row pigeons">
@@ -90,6 +94,8 @@
             </div>
         </div>
     </div>
+    
+    <a name="chi-siamo"></a>
     <div id="chi-siamo-container" class="container-fluid">
         <h3 class="container-title">I primi pigeons</h3>
         <div class="row">
@@ -111,11 +117,11 @@
                     </div>
                     <div class="profile-description col-xs-12  col-md-6">
                     <h3 class="profile-name">Anna</h3>
-                    <p class="profile-job">Visual Desginer, Mlano.</p>
+                    <p class="profile-job">Graphic Designer, Milano.</p>
                     <p class="profile-about">
-                    Precedentemente laureata in design del prodotto industriale, Laura. 
-                    sta completando la sua formazione specializzandosi in design 
-                    della comunicazione presso il Politecnico di Milano.</p>
+                    Precedentemente laureata in design del prodotto industriale allo IUAV di Venezia, 
+					Anna sta completando la sua formazione specialistica in design dellacomunicazione 
+					presso il Politecnico di Milano.</p>
                     </div>
                 </div>
                 <div class="row slide">
@@ -134,6 +140,7 @@
         </div>
     </div>
     </div>
+	
 	<div id="footer" class="container-fluid">
 	    <div class="row">
 	        <div class="footer-logo col-xs-12 col-md-6">
@@ -167,6 +174,18 @@
 </body>
 <script type="text/javascript">
 $(document).ready(function() {
+	$('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
     $("#chi-siamo-slides").owlCarousel({
         singleItem: true
     });

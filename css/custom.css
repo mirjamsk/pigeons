@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/ProximaNova-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/ProximaNova-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaSemiBold';
+    src: url('../fonts/ProximaNova-Semibold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* NAVBAR */
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #e95557;
+    background-color: transparent;
+}
+
+#navbar > ul {
+    float: right;
+    padding-top: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "ProximaNovaRegular", sans-serif;
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 767px) {
+	#navbar > ul{
+		padding-top: 0;
+		margin-top: 0;
+	}
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+    }
+    .navbar-collapse li {
+        background-color: rgba(0, 0, 0, 0.4)
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form .navbar-inverse .navbar-toggle:focus,
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:active,
+    .navbar-inverse .navbar-toggle,
+    .navbar-collapse {
+        border-color: transparent;
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    	background-color: transparent;
+    }
+}
+
+
+/* CONTAINER */
+
+.jumbotron {
+    margin-top: -82px;
+    color: #FFFFFF;
+    height: 500px;
+    text-align: center;
+    background: url(../images/foto.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 45px !important;
+    font-family: "ProximaNovaSemiBold", sans-serif;
+}
+
+#header-container > div p {
+    font-family: "ProximaNovaRegular", sans-serif;
+}
+
+#header-container {
+    height: 90%;
+    display: table;
+}
+
+#header-container >div {
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -175,43 +175,13 @@ h1 {
     margin-bottom: 3em;
 }
 
-#come-funziona-container .pigeons > div {
-    min-height: 30em;
-    text-align: center;
-    position: relative;
-}
-
-#come-funziona-container div.pigeon {
-    min-height: 17em;
-}
-
-#come-funziona-container .pigeons > div:nth-child(1) > div.pigeon {
-    background: url(../images/piccione1.png) no-repeat center center scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#come-funziona-container .pigeons>div:nth-of-type(2) {
-        background: url(../images/piccione2.png) no-repeat center center scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#come-funziona-container .pigeons>div:nth-of-type(3) {
-        background: url(../images/piccione3.png) no-repeat center center scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
 .pigeon-title {
     font-family: "ShortLinesScriptBold", serif;
     margin: 2em 0;
+}
+
+#come-funziona-container > div > div:nth-child(1) > div.pigeon-title > h2 {
+    margin-top: 1.3em;
 }
 
 .pigeon-description {

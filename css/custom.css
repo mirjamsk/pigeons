@@ -133,6 +133,7 @@ h1 {
 /* DOWNLOAD CONTAINER */
 
 #download-container >div {
+    padding-bottom: 2em;
     text-align: center;
     color: #727373;
     font-family: "ProximaNovaSemiBold", sans-serif;
@@ -184,9 +185,72 @@ h1 {
     margin-top: 1.3em;
 }
 
+#come-funziona-container img {
+    max-width: 225px;
+}
+
 .pigeon-description {
     font-family: "ProximaNovaRegular", sans-serif;
 }
 
 
+/* CHI-SIAMO CONTAINER */
+
+#chi-siamo-container > div {
+    text-align: center;
+    color: #727373;
+    font-family: "ProximaNovaSemiBold", sans-serif;
+}
+
+#chi-siamo-container .container-title {
+    margin: 3em 0 2em 0;
+}
+
+#chi-siamo-container .profile-description {
+    text-align: left;
+    background-color: #e6e6e6;
+    min-height: 20em;
+    padding: 3% 0 0 5%;
+}
+
+#chi-siamo-container .slide {
+    min-height: 20em;
+    padding: 0 15%;
+}
+
+#chi-siamo-container .profile-name {
+    color: #202020;
+    font-family: "ShortLinesScriptBold", serif;
+    padding-bottom: 2em;
+
+}
+
+#chi-siamo-container .profile-job {
+    font-family: "ProximaNovaRegular", sans-serif;
+    font-size: 1.2em;
+}
+
+#chi-siamo-slides > div.owl-wrapper-outer > div > div:nth-child(1)  div.profile-pic{
+    background: url(../images/laura.jpg) no-repeat center right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 20em;
+}
+#chi-siamo-slides > div.owl-wrapper-outer > div > div:nth-child(2)  div.profile-pic{
+    background: url(../images/anna.jpg) no-repeat center right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 20em;
+}
+#chi-siamo-slides > div.owl-wrapper-outer > div > div:nth-child(3)  div.profile-pic{
+    background: url(../images/anna.jpg) no-repeat center right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 20em;
 }

@@ -95,7 +95,7 @@
 .jumbotron {
     margin-top: -82px;
     color: #FFFFFF;
-    height: 500px;
+    height: 100vh;
     text-align: center;
     background: url(../images/foto.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -275,6 +275,7 @@ h1 {
 
 #footer > div.row {
     padding: 5% 10% 1% 10%;
+    margin-right: 0;
     text-align: center;
 }
 

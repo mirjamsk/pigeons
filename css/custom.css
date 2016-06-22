@@ -84,6 +84,9 @@
     .navbar-inverse .navbar-toggle:hover {
         background-color: transparent;
     }
+    #navbar{
+        position: absolute;
+    }
 }
 
 

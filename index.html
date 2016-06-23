@@ -168,14 +168,23 @@
 	        <div class="horizontal-divider"></div>
 	        <div class="row social-media">
 	        	<p>Seguici su</p>
-	            <img alt="Brand" src="./images/footer-loghi.png" height="50">
-	        	<p>	&copy; Pigeons, Inc.</p>
+	            <div class="row social-media-icons">
+	        		<div class="col-xs-4 col-md-1"></div>
+	        		<div class="col-xs-4 col-md-1"></div>
+	        		<div class="col-xs-4 col-md-1"></div>
+	        		<div class="col-xs-4 col-md-1"></div>
+	        		<div class="col-xs-4 col-md-1"></div>
+	        		<div class="col-xs-4 col-md-1"></div>
+	        		<div class="col-xs-4 col-md-1"></div>
 	        </div>
+	        <p>	&copy; Pigeons, Inc.</p>
 	</div>
-
 </body>
+
 <script type="text/javascript">
+
 $(document).ready(function() {
+	// scroll on anchor link click
 	$('a[href*="#"]:not([href="#"])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 	      var target = $(this.hash);
@@ -188,6 +197,7 @@ $(document).ready(function() {
 	      }
 	    }
 	  });
+
     $("#chi-siamo-slides").owlCarousel({
         singleItem: true
     });

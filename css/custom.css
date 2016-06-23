@@ -84,7 +84,7 @@
     .navbar-inverse .navbar-toggle:hover {
         background-color: transparent;
     }
-    #navbar{
+    #navbar {
         position: absolute;
     }
 }
@@ -284,22 +284,64 @@ h1 {
     list-style-type: none;
     font-family: "ProximaNovaRegular", sans-serif;
 }
-#footer li{
+
+#footer li {
     text-align: left;
 }
+
 #footer .footer-logo {
     padding-bottom: 5%;
 }
 
-#footer .social-media{
+#footer .social-media {
     text-align: center;
 }
-#footer .social-media p:nth-child(1){
-    margin-bottom: 2% ;
+
+#footer .social-media p:nth-child(1) {
+    margin-bottom: 2%;
 }
-#footer .social-media p:nth-child(3){
+
+#footer .social-media p:nth-child(3) {
     color: #727373;
-    margin-top: 3% ;
+    margin-top: 3%;
+}
+
+#footer .social-media-icons {
+    text-align: center;
+}
+
+#footer .social-media-icons > div {
+    background: url(../images/footer-loghi.png) no-repeat center right scroll;
+    background-size: auto 50px;
+    min-height: 50px;
+    max-height: 50px;
+    max-width: 57.5px;
+    display: inline-block;
+    float: none
+}
+
+#footer .social-media-icons > div:nth-child(1) {
+    background-position: 0px 0px;
+}
+
+#footer .social-media-icons > div:nth-child(2) {
+    background-position: -62px 0px;
+}
+
+#footer .social-media-icons > div:nth-child(3) {
+    background-position: -129px 0px;
+}
+
+#footer .social-media-icons > div:nth-child(4) {
+    background-position: -194px 0px;
+}
+
+#footer .social-media-icons > div:nth-child(5) {
+    background-position: -261px 0px;
+}
+
+#footer .social-media-icons > div:nth-child(6) {
+    background-position: -326px 0px;
 }
 
 .horizontal-divider {

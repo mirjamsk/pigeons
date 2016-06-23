@@ -348,3 +348,9 @@ h1 {
     border-bottom: 1px solid #727373;
     min-height: 1px;
 }
+@media (max-width: 767px) {
+
+    #footer > div.row.social-media > p:nth-child(1){
+        margin-bottom: 1em;
+    }
+}

@@ -93,9 +93,10 @@
 /* HEADER CONTAINER */
 
 .jumbotron {
+    height: 100vh;
+    min-height: 320px;
     margin-top: -82px;
     color: #FFFFFF;
-    height: 100vh;
     text-align: center;
     background: url(../images/foto.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
